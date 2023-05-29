@@ -9,39 +9,42 @@ body {
     flex-direction: column;
 }
 
-.header .logo-text {
+.header .logo-text
+,.footer {
     font-size: 24px;
     color: #f9faf8;
 }
 
 .header
+,.filler
 ,.hero
 ,.footer {
     background-color: #1f2937;
+}
+
+.header
+,.hero
+,.info
+,.quote
+,.signup
+,.footer {
+    padding: 0 180px;
+}
+
+.filler {
+    height: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 0 180px;
 }
 
 .logo {
     display: flex;
-    /* padding: 16px; */
-}
-
-.hero .main {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.hero .secondary
-,a {
-    font-size: 18px;
-    color: #e5e7eb;
+    gap: 16px;
 }
 
 a {
@@ -56,16 +59,47 @@ ul {
     gap: 16px;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero .main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+
+.hero .secondary
+,a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .belt {
     width: 100px;
     height: auto;
 }
 
 .bjj {
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 25px;
+    border-color: #f9faf8;
+    width: 100px;
+    height: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
 }
