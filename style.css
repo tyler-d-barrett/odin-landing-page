@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 180px;
+    padding: 0 750px;
 }
 
 .logo {
@@ -51,7 +51,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-    padding: 75px 180px;
+    padding: 75px 750px;
 }
 
 .hero .main {
@@ -80,7 +80,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 180px;
+    padding: 30px 750px;
 }
 
 .info-belts {
@@ -111,7 +111,7 @@ button {
 }
 
 .quote {
-    padding: 75px 180px;
+    padding: 75px 750px;
     background-color: #e5e7eb;
 }
 
@@ -127,7 +127,7 @@ button {
 }
 
 .signup {
-    padding: 60px 180px;
+    padding: 60px 750px;
 }
 
 .signup-box {
